@@ -1,0 +1,305 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Magesh's Flagfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #121212;
+      color: #e0e0e0;
+      text-align: center;
+    }
+
+    header {
+      background: #121212;
+      color: #fff;
+      padding: 20px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+      font-family: 'Segoe UI', cursive;
+      color: #c0392b;
+      letter-spacing: 2px;
+      text-shadow:
+        0 1px 0 #7f1a1a,
+        0 2px 0 #7f1a1a,
+        0 3px 2px rgba(0, 0, 0, 0.3);
+    }
+
+    header p {
+      margin: 0;
+      font-family: 'Segoe UI', cursive;
+      font-size: 0.85em;
+      color: #FFFFFF;
+      font-style: italic;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      background: #3a3a3a;
+      padding: 10px 10px;
+      text-align: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      color: #ccc;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    .intro {
+      margin: 0;
+      font-size: 1.5em;
+      font-family: 'Segoe UI', cursive;
+      color: #FFFFFF;
+      text-shadow:
+        0 1px 0 #7f1a1a,
+        0 2px 0 #7f1a1a,
+        0 3px 2px rgba(0, 0, 0, 0.3);
+    }
+
+    .fa {
+      margin-right: 8px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 40px 20px;
+      background: #1f1f1f;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .place {
+      background: #2a2a2a;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.7);
+      text-align: left;
+      transition: transform 0.3s ease;
+      color: #f1f1f1;
+    }
+
+    .place:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(192, 57, 43, 0.7);
+    }
+
+    .label {
+      display: block;
+      font-size: 1em;
+      font-family: monospace;
+      text-transform: uppercase;
+      color: #ffffff;
+      margin-top: 6px;
+      margin-bottom: 2px;
+      letter-spacing: 1px;
+    }
+
+    .place img {
+      width: 100px;
+      height: 65px;
+      object-fit: cover;
+      border-radius: 6px;
+      border: 2px solid #444;
+      background-color: #2a2a2a;
+      box-shadow: inset 0 0 5px #000;
+    }
+
+    .place h3 {
+      margin: 10px 0 5px;
+      font-size: 1.1em;
+      color: #e74c3c;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #121212;
+      color: #888;
+      margin-top: 30px;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8em;
+      }
+
+      .grid {
+        padding: 20px 10px;
+        gap: 15px;
+      }
+
+      .place img {
+        width: 80px;
+        height: 52px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>MAGESH KARTHIKEYAN</h1>
+    <p>Robotic Process Automation Developer | SOX Compliance Performer</p>
+  </header>
+
+  <nav>
+    <div class="nav-container">
+      <div class="nav-links">
+        <a href="flag.html" class="fa fa-globe"> My World</a>
+        <span class="divider">|</span>
+        <a href="https://www.google.com/maps?q=Kraków,+Poland" class="fa fa-map-marker" style= "color: #E60023
+;"> Location</a>
+        <span class="divider">|</span>
+        <a href="mailto:mageshkarthik61@gmail.com" class="fa fa-google"style="color: #34A853;"> Email</a>
+        <span class="divider">|</span>
+        <a href="https://www.instagram.com/magesh.karthikeyan" class="fa fa-instagram"  style="color: #E4405F;target="_blank"> Instagram</a>
+        <span class="divider">|</span>
+        <a href="https://www.linkedin.com/in/magesh-karthikeyan" class="fa fa-linkedin" style="color: #0077b5; target="_blank"> LinkedIn</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="grid">
+    <div class="place">
+      <h3>📘 Professional Summary</h3>
+      <p>
+        - Certified RPA Developer with expertise in Blue Prism, UIPath, and Automation Anywhere.<br>
+        - Experienced in building, deploying, and maintaining end-to-end automation solutions.<br>
+        - Skilled in API integrations, compliance management, and intelligent document processing.<br>
+        - Strong team collaborator with a focus on scalable, efficient automation.
+      </p>
+    </div>
+
+    <div class="place">
+      <h3>💡 RPA Developer Highlights</h3>
+      <p>
+        - Designed and deployed end-to-end automation solutions using Blue Prism reducing manual effort by 40%.<br>
+        - Integrated bots with APIs and databases for seamless workflow orchestration.<br>
+        - Implemented OCR and IDP to extract structured data from scanned documents.<br>
+        - Ensured SOX compliance and maintained technical documentation.<br>
+        - Built Power BI dashboards for automation ROI metrics.<br>
+        - Configured Control Room for bot monitoring and scheduling.
+      </p>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="place">
+      <h3>🎓 Education</h3>
+      <p>
+        Bachelor of Engineering (Mechatronics)<br>
+        Chennai Institute of Technology<br>
+        (2017 – 2021)
+      </p>
+    </div>
+
+    <div class="place">
+      <h3>📄 Certifications</h3>
+      <p>
+        Blue Prism<br>
+        UIPath<br>
+        Automation Anywhere
+      </p>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="place">
+      <h3>🏢 Work Experience (IT)</h3><br>
+      <strong style="color: #0077b5;">Avenga Sp.zo.o, Krakow, Poland</strong><br>
+      <u>Junior Compliance Specialist & RPA Developer
+      (2023 – Present)</u><br><br>
+      -Designed and implemented end-to-end RPA solutions to automate business processes across Sharedrive, Excel, SAP, and Outlook platforms.<br>
+-Automated Excel-based reports and reconciliations, reducing turnaround time by 60%.<br>
+-Created rule-based bots to handle email triaging, automated reporting, and client follow-ups.<br>
+-Performed testing, deployment, and support of bots with robust exception handling.<br>
+-Maintained detailed documentation of automation processes and maintained bot health in production.<br>
+-Collaborated with IT Governance and Compliance team to ensure the SOX Controls are delivered in proper quality.<br>
+-Planned and orchestrated end to end process.
+<br><br>
+
+      <strong style="color: #0077b5;">ABB Business Services, Krakow, Poland</strong><br>
+      <u>Release Manager (Intern)
+  2022 – 2023</u><br><br>
+      -Coordinated with RPA Developers, Business Analysts, and IT teams for pre-release checks, test validations, and deployment scheduling.<br>
+-Maintained and governed the Release Calendar, ensuring proper timing and risk mitigation for all bot deployments.<br>
+-Supported Developers In Creating Object Level Code Making It easier for Senior Developers to Integrate in Their Process.<br>
+- Deployed UAT code to production and ensured SOX control compliance.<br>
+- Collaborated across teams for QA, planning, and monitoring.<br>
+
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="place">
+      <h3>🏭 Work Experience (Manufacturing)</h3><br>
+      <strong style="color: #0077b5;">Faurecia Emissions Control Ltd., Chennai</strong><br>
+     <u>Engineer Intern (May 2019)</u><br><br>
+      -Nissan vehicles, ensuring compliance with industry and customer standards.<br>
+-Utilized control plans, technical drawings, and inspection checklists to make informed accept/reject decisions during in-line and end-of-line quality checks.<br>
+-Reviewed and validated production and quality records, ensuring accuracy, completeness, and compliance with regulatory and internal standards.<br>
+-Performed dimensional, visual, and functional inspections on both industrial and commercial components using precision instruments such as Vernier calipers, micrometres, and gauges.<br>
+-Identified non-conforming materials and collaborated with production and engineering teams to implement corrective actions and prevent recurrence.<br>
+-Contributed to process improvement initiatives by providing feedback on defect trends and supporting root cause analysis (RCA) activities.
+<br><br>
+
+      <strong style="color: #0077b5;">Apex Hi-tech Institute, Bangalore </strong><br>
+      <u>Student Intern (March 2018)</u><br><br>
+      -Gained hands-on training in basic CNC operations and mechatronics maintenance of CNC machines, with a focus on both theoretical knowledge and practical applications.<br>
+-Interpreted process sheets, blueprints, and part sketches to determine required machining operations, dimensional specifications, and setup procedures.<br>
+-Operated CNC machines, ensuring correct selection and installation of tools in tool posts, turrets, indexing heads, and automatic tool change magazines as per specified process sequences.<br>
+-Learned preventive and breakdown maintenance techniques for CNC machinery to enhance uptime and operational efficiency.<br>
+-Acquired foundational knowledge in automation, electrical systems, sensors, and control systems related to CNC equipment.
+
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="place">
+      <h3>🧠 Highlight Project</h3>
+      <p>
+        - Built ServiceNow ticket automation via Power Automate using Blue Prism DB API to detect session terminations.<br>
+        - Eliminated manual ticket creation and improved operational response time.
+      </p>
+    </div>
+
+    <div class="place">
+      <h3>🌍 Languages</h3>
+      <p>
+        English<br>
+        Tamil<br>
+        Hindi
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Developed by Magesh Karthikeyan
+  </footer>
+</body>
+</html>
